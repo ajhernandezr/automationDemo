@@ -3,9 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+      <class name="Tests.DeclinedPaymentOnBooking">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="DeclinedPaymentOnBookingTest"/>
+        </methods>
+      </class> <!-- Tests.DeclinedPaymentOnBooking -->
       <class name="run.runTest">
         <methods>
-          <include name="run" invocation-numbers="0"/>
+          <include name="run"/>
         </methods>
       </class> <!-- run.runTest -->
     </classes>

@@ -10,8 +10,6 @@ import org.openqa.selenium.support.FindBy;
 
 import org.openqa.selenium.support.PageFactory;
 
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-
 import utility.utilities;
 
 public class CheckoutAndExtras {
@@ -101,7 +99,7 @@ public class CheckoutAndExtras {
 
 			// Log the info for the report
 			utilities.logReports(reportPassed);
-		} catch (ElementNotFoundException e) {
+		} catch (Exception e) {
 			// Log the info for the report
 			utilities.logReports(reportFailed);
 			throw (e);

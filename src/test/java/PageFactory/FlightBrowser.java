@@ -1,8 +1,5 @@
 package PageFactory;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 

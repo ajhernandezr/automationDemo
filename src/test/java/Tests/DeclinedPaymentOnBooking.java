@@ -42,7 +42,7 @@ public class DeclinedPaymentOnBooking {
 	private String sheet = "General";
 	private String Browser;
 	private int sTestCase;
-	@BeforeTest
+	
 	public void setup(String excelTestName, int testCounter) throws Exception {
 		
 		
@@ -59,7 +59,7 @@ public class DeclinedPaymentOnBooking {
 
 	}
 
-	@Test()
+	
 
 	public void DeclinedPaymentOnBookingTest(int testCounter) throws Exception {
 
@@ -157,7 +157,7 @@ public class DeclinedPaymentOnBooking {
 		ExcelUtils.inputResults("Pass",Constant.Col_DeclinedRPaymentResultRow, testCounter);
 	}
 
-	@AfterMethod
+	
 	public void afterMethod() throws Exception {
 		// Close the reports
 		utilities.closeReports();

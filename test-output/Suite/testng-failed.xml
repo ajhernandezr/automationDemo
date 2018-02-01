@@ -2,10 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="DeclinedPaymentOnBooking(failed)">
+    <parameter name="DeclinedPaymentOnBooking" value="DeclinedPaymentOnBooking"/>
     <classes>
       <class name="run.runTest">
         <methods>
-          <include name="run"/>
+          <include name="run" invocation-numbers="0"/>
         </methods>
       </class> <!-- run.runTest -->
     </classes>

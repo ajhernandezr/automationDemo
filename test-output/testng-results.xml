@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1176904" started-at="2018-02-01T18:08:02Z" finished-at="2018-02-01T18:27:39Z">
+  <suite name="Suite" duration-ms="129026" started-at="2018-02-01T19:43:21Z" finished-at="2018-02-01T19:45:30Z">
     <groups>
     </groups>
-    <test name="DeclinedPaymentOnBooking" duration-ms="1176904" started-at="2018-02-01T18:08:02Z" finished-at="2018-02-01T18:27:39Z">
+    <test name="DeclinedPaymentOnBooking" duration-ms="129026" started-at="2018-02-01T19:43:21Z" finished-at="2018-02-01T19:45:30Z">
       <class name="run.runTest">
-        <test-method status="PASS" signature="run(org.testng.ITestContext)[pri:0, instance:run.runTest@393671df]" name="run" duration-ms="1176862" started-at="2018-02-01T19:08:02Z" finished-at="2018-02-01T19:27:39Z">
+        <test-method status="PASS" signature="run(org.testng.ITestContext)[pri:0, instance:run.runTest@29ee9faa]" name="run" duration-ms="129002" started-at="2018-02-01T20:43:21Z" finished-at="2018-02-01T20:45:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@235834f2]]>
+                <![CDATA[org.testng.TestRunner@31dc339b]]>
               </value>
             </param>
           </params>

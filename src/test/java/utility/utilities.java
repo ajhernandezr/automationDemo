@@ -27,6 +27,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 
+
 public class utilities {
 	public static WebDriver driver;
 	static ExtentReports report;
